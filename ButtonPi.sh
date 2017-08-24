@@ -97,7 +97,7 @@ else
 fi
 
 gpiopath=$(which gpio)
-if [ "$bcpath" = "" ]
+if [ "$gpiopath" = "" ]
 then
         echo "ERREUR: wiringpi non-installé"
 	exit 69 # EX_UNAVAILABLE
