@@ -21,7 +21,7 @@
 
 Une fois le fichier copié à partir de github : git http://......
 
-Ne pas oublier de télécharger : bc, jq, mplayer, wiringpi (tuto : https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install/)
+Ne pas oublier de télécharger : jq, mplayer, wiringpi (tuto : https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install/)
 
 Les led doivent être branché au pins : 17, 27, 22
 Le bouton doit être branché sur le pin : 23
