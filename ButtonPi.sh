@@ -96,13 +96,13 @@ else
         echo "jq : installé"
 fi
 
-bcpath=$(which bc)
+gpiopath=$(which gpio)
 if [ "$bcpath" = "" ]
 then
-        echo "ERREUR: bc non-installé"
+        echo "ERREUR: wiringpi non-installé"
 	exit 69 # EX_UNAVAILABLE
 else
-        echo "bc : installé"
+        echo "wiringpi : installé"
 fi
 
 mplayerpath=$(which mplayer)
